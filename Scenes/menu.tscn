@@ -31,7 +31,7 @@ __meta__ = {
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 852.669, 264.041 )
+position = Vector2( 867.805, 260.677 )
 texture = ExtResource( 1 )
 
 [connection signal="button_down" from="Button" to="." method="_on_Button_button_down"]
