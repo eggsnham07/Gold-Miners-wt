@@ -1,13 +1,27 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Fonts/70px.tres" type="DynamicFont" id=1]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Label" type="Label" parent="."]
-margin_left = 213.0
-margin_top = 92.0
-margin_right = 621.0
-margin_bottom = 238.0
-text = "Main Menu"
+margin_left = 70.0
+margin_top = 77.0
+margin_right = 421.0
+margin_bottom = 157.0
+size_flags_vertical = 1
+custom_fonts/font = ExtResource( 1 )
+text = "Gold Miner"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 2.0
+margin_top = 581.0
+margin_right = 91.0
+margin_bottom = 597.0
+text = "Version 0.0.1"
 __meta__ = {
 "_edit_use_anchors_": false
 }
