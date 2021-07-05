@@ -19,6 +19,7 @@ func _ready():
 
 func _physics_process(delta):
 	vel.x = 0
+	vel.y += gravity * delta
 	
 	if Input.is_action_pressed("Left"):
 		vel.x -= speed
@@ -26,13 +27,12 @@ func _physics_process(delta):
 	if Input.is_action_pressed("Right"):
 		vel.x += speed
 		
-	vel.y += gravity * delta
-	if Input.is_action_pressed("Jump"):
+	if Input.is_action_pressed("Jump") and is_on_floor():
 		vel.y -= jumpForce
 		
 	if vel.x < 0:
-		sprite.flip_h = true
-	elif vel.x > 0:
 		sprite.flip_h = false
+	elif vel.x > 0:
+		sprite.flip_h = true
 		
 	vel = move_and_slide(vel, Vector2.UP)
