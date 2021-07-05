@@ -15,7 +15,7 @@ a = Vector2( 1.05951, 456.441 )
 
 [sub_resource type="SegmentShape2D" id=4]
 a = Vector2( 34.6354, -5.80856 )
-b = Vector2( -0.981903, -5.80856 )
+b = Vector2( -0.935738, -6.07971 )
 
 [node name="StaticBody2D" type="StaticBody2D"]
 
