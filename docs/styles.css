@@ -1,3 +1,17 @@
 body {
     text-align: center;
 }
+
+.releases {
+    text-align: center;
+}
+
+.releases ul {
+    display: inline-block;
+    margin: 0;
+}
+
+.releases ul li {
+    float: left;
+    padding: 2px 5px;
+}
