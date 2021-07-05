@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Blocks/Stone.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Worlds/World1/Camera2D.gd" type="Script" id=3]
+[ext_resource path="res://Blocks/Bolders.tscn" type="PackedScene" id=4]
 
 [node name="Section1" type="Node2D"]
 
@@ -19,4 +20,49 @@ script = ExtResource( 3 )
 position = Vector2( 24.041, 874.056 )
 
 [node name="Stone2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 75.9541, 874.056 )
+position = Vector2( 69.8189, 874.056 )
+
+[node name="Stone3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 119.372, 874.056 )
+
+[node name="Stone4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 165.15, 874.056 )
+
+[node name="Stone5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 213.76, 874.056 )
+
+[node name="Stone6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 259.538, 874.056 )
+
+[node name="Stone7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 308.147, 874.056 )
+
+[node name="Stone8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 353.925, 874.056 )
+
+[node name="Stone9" parent="." instance=ExtResource( 2 )]
+position = Vector2( -357.284, 874.056 )
+
+[node name="Stone10" parent="." instance=ExtResource( 2 )]
+position = Vector2( -311.506, 874.056 )
+
+[node name="Stone11" parent="." instance=ExtResource( 2 )]
+position = Vector2( -261.953, 874.056 )
+
+[node name="Stone12" parent="." instance=ExtResource( 2 )]
+position = Vector2( -216.175, 874.056 )
+
+[node name="Stone13" parent="." instance=ExtResource( 2 )]
+position = Vector2( -167.566, 874.056 )
+
+[node name="Stone14" parent="." instance=ExtResource( 2 )]
+position = Vector2( -121.788, 874.056 )
+
+[node name="Stone15" parent="." instance=ExtResource( 2 )]
+position = Vector2( -73.1781, 874.056 )
+
+[node name="Stone16" parent="." instance=ExtResource( 2 )]
+position = Vector2( -27.4002, 874.056 )
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( -265.855, 389.338 )
