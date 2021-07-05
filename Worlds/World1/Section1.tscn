@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Blocks/Stone.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Worlds/World1/Camera2D.gd" type="Script" id=3]
+
+[node name="Section1" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 203.211, 283.783 )
+scale = Vector2( 2, 2 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 800.027, 449.013 )
+current = true
+script = ExtResource( 3 )
+
+[node name="Stone" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24.041, 874.056 )
+
+[node name="Stone2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 75.9541, 874.056 )

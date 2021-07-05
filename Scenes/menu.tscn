@@ -1,14 +1,16 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Fonts/70px.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Scenes/menu.gd" type="Script" id=2]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource( 2 )
 
 [node name="Label" type="Label" parent="."]
-margin_left = 70.0
-margin_top = 77.0
-margin_right = 421.0
-margin_bottom = 157.0
+margin_left = 579.507
+margin_top = 212.578
+margin_right = 930.507
+margin_bottom = 292.578
 size_flags_vertical = 1
 custom_fonts/font = ExtResource( 1 )
 text = "Gold Miner"
@@ -18,10 +20,22 @@ __meta__ = {
 
 [node name="Label2" type="Label" parent="."]
 margin_left = 2.0
-margin_top = 581.0
+margin_top = 882.606
 margin_right = 91.0
-margin_bottom = 597.0
+margin_bottom = 898.606
 text = "Version 0.0.1"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Button" type="Button" parent="."]
+margin_left = 702.545
+margin_top = 359.546
+margin_right = 774.545
+margin_bottom = 385.546
+text = "Play"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="button_down" from="Button" to="." method="_on_Button_button_down"]
