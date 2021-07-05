@@ -1,1 +1,1 @@
-Gold Miners Beta 
+# Gold Miners Beta 
