@@ -7,7 +7,7 @@ var gravity:int = 1000
 var vel:Vector2 = Vector2()
 
 onready var sprite = $Sprite
-var time:int = 30
+var time:int = 20
 
 var t = Transform2D()
 
@@ -47,7 +47,7 @@ func _physics_process(delta):
 		if sprite.flip_h == true:
 			if time > 0:
 				time -= delta
-				vel.x += 500
+				vel.x += 1000
 				if !is_on_floor():
 					vel.y = 0
 			elif time != 0:
@@ -57,7 +57,7 @@ func _physics_process(delta):
 		elif sprite.flip_h == false:
 			if time > 0:
 				time -= delta
-				vel.x -= 500
+				vel.x -= 1000
 
 				if !is_on_floor():
 					vel.y = 0
@@ -95,7 +95,7 @@ func _physics_process(delta):
 
 	vel = move_and_slide(vel, Vector2.UP)
 	if is_on_floor() and time == 0:
-		time = 30
+		time = 20
 	
 func collect_dash():
 	dash = true
