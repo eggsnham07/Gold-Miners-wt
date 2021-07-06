@@ -1,15 +1,15 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Blocks/Stone.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Worlds/World1/Camera2D.gd" type="Script" id=3]
 [ext_resource path="res://Blocks/Bolders.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Blocks/Dash.tscn" type="PackedScene" id=5]
 
 [node name="Section1" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 144.372, 796.674 )
-scale = Vector2( 2, 2 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( 800.027, 449.013 )
@@ -17,28 +17,28 @@ current = true
 script = ExtResource( 3 )
 
 [node name="Stone" parent="." instance=ExtResource( 2 )]
-position = Vector2( 24.041, 874.056 )
+position = Vector2( 14.5166, 874.056 )
 
 [node name="Stone2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 69.8189, 874.056 )
+position = Vector2( 60.2945, 874.056 )
 
 [node name="Stone3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 119.372, 874.056 )
+position = Vector2( 109.848, 874.056 )
 
 [node name="Stone4" parent="." instance=ExtResource( 2 )]
-position = Vector2( 165.15, 874.056 )
+position = Vector2( 155.626, 874.056 )
 
 [node name="Stone5" parent="." instance=ExtResource( 2 )]
-position = Vector2( 213.76, 874.056 )
+position = Vector2( 204.236, 874.056 )
 
 [node name="Stone6" parent="." instance=ExtResource( 2 )]
-position = Vector2( 259.538, 874.056 )
+position = Vector2( 250.014, 874.056 )
 
 [node name="Stone7" parent="." instance=ExtResource( 2 )]
-position = Vector2( 308.147, 874.056 )
+position = Vector2( 298.623, 874.056 )
 
 [node name="Stone8" parent="." instance=ExtResource( 2 )]
-position = Vector2( 353.925, 874.056 )
+position = Vector2( 344.401, 874.056 )
 
 [node name="Stone9" parent="." instance=ExtResource( 2 )]
 position = Vector2( -357.284, 874.056 )
@@ -64,9 +64,228 @@ position = Vector2( -73.1781, 874.056 )
 [node name="Stone16" parent="." instance=ExtResource( 2 )]
 position = Vector2( -27.4002, 874.056 )
 
+[node name="Stone17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 757.458, 874.056 )
+
+[node name="Stone18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 803.236, 874.056 )
+
+[node name="Stone19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 852.789, 874.056 )
+
+[node name="Stone20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 898.567, 874.056 )
+
+[node name="Stone21" parent="." instance=ExtResource( 2 )]
+position = Vector2( 947.177, 874.056 )
+
+[node name="Stone22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 992.955, 874.056 )
+
+[node name="Stone23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1041.56, 874.056 )
+
+[node name="Stone24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1087.34, 874.056 )
+
+[node name="Stone25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 385.658, 874.056 )
+
+[node name="Stone26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 431.436, 874.056 )
+
+[node name="Stone27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 480.989, 874.056 )
+
+[node name="Stone28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 526.767, 874.056 )
+
+[node name="Stone29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 575.376, 874.056 )
+
+[node name="Stone30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 621.154, 874.056 )
+
+[node name="Stone31" parent="." instance=ExtResource( 2 )]
+position = Vector2( 669.764, 874.056 )
+
+[node name="Stone32" parent="." instance=ExtResource( 2 )]
+position = Vector2( 715.541, 874.056 )
+
+[node name="Stone33" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1503.83, 874.056 )
+
+[node name="Stone34" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1549.61, 874.056 )
+
+[node name="Stone35" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1599.16, 874.056 )
+
+[node name="Stone36" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1644.94, 874.056 )
+
+[node name="Stone37" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1693.55, 874.056 )
+
+[node name="Stone38" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1739.33, 874.056 )
+
+[node name="Stone39" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1787.94, 874.056 )
+
+[node name="Stone40" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1833.72, 874.056 )
+
+[node name="Stone41" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1132.03, 874.056 )
+
+[node name="Stone42" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1177.81, 874.056 )
+
+[node name="Stone43" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1227.36, 874.056 )
+
+[node name="Stone44" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1273.14, 874.056 )
+
+[node name="Stone45" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1321.75, 874.056 )
+
+[node name="Stone46" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1367.53, 874.056 )
+
+[node name="Stone47" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1416.14, 874.056 )
+
+[node name="Stone48" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1461.92, 874.056 )
+
+[node name="Stone49" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2246.78, 874.056 )
+
+[node name="Stone50" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2292.55, 874.056 )
+
+[node name="Stone51" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2342.11, 874.056 )
+
+[node name="Stone52" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2387.88, 874.056 )
+
+[node name="Stone53" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2436.49, 874.056 )
+
+[node name="Stone54" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2482.27, 874.056 )
+
+[node name="Stone55" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2530.88, 874.056 )
+
+[node name="Stone56" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2576.66, 874.056 )
+
+[node name="Stone65" parent="." instance=ExtResource( 2 )]
+position = Vector2( 369.401, 825.306 )
+
+[node name="Stone66" parent="." instance=ExtResource( 2 )]
+position = Vector2( 418.01, 825.306 )
+
+[node name="Stone67" parent="." instance=ExtResource( 2 )]
+position = Vector2( 463.788, 825.306 )
+
+[node name="Stone57" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1874.97, 874.056 )
+
+[node name="Stone68" parent="." instance=ExtResource( 2 )]
+position = Vector2( 369.401, 775.152 )
+
+[node name="Stone69" parent="." instance=ExtResource( 2 )]
+position = Vector2( 415.179, 775.152 )
+
+[node name="Stone70" parent="." instance=ExtResource( 2 )]
+position = Vector2( 369.401, 726.402 )
+
+[node name="Stone71" parent="." instance=ExtResource( 2 )]
+position = Vector2( 418.01, 726.402 )
+
+[node name="Stone72" parent="." instance=ExtResource( 2 )]
+position = Vector2( 463.788, 726.402 )
+
+[node name="Stone73" parent="." instance=ExtResource( 2 )]
+position = Vector2( 463.788, 775.152 )
+
+[node name="Stone74" parent="." instance=ExtResource( 2 )]
+position = Vector2( 369.401, 677.265 )
+
+[node name="Stone75" parent="." instance=ExtResource( 2 )]
+position = Vector2( 418.01, 677.265 )
+
+[node name="Stone76" parent="." instance=ExtResource( 2 )]
+position = Vector2( 463.788, 677.265 )
+
+[node name="Stone77" parent="." instance=ExtResource( 2 )]
+position = Vector2( 369.401, 627.111 )
+
+[node name="Stone78" parent="." instance=ExtResource( 2 )]
+position = Vector2( 415.179, 627.111 )
+
+[node name="Stone79" parent="." instance=ExtResource( 2 )]
+position = Vector2( 369.401, 578.361 )
+
+[node name="Stone80" parent="." instance=ExtResource( 2 )]
+position = Vector2( 418.01, 578.361 )
+
+[node name="Stone81" parent="." instance=ExtResource( 2 )]
+position = Vector2( 463.788, 578.361 )
+
+[node name="Stone82" parent="." instance=ExtResource( 2 )]
+position = Vector2( 463.788, 627.111 )
+
+[node name="Stone83" parent="." instance=ExtResource( 2 )]
+position = Vector2( 369.401, 528.896 )
+
+[node name="Stone84" parent="." instance=ExtResource( 2 )]
+position = Vector2( 415.179, 528.896 )
+
+[node name="Stone85" parent="." instance=ExtResource( 2 )]
+position = Vector2( 369.401, 480.146 )
+
+[node name="Stone86" parent="." instance=ExtResource( 2 )]
+position = Vector2( 418.01, 480.146 )
+
+[node name="Stone87" parent="." instance=ExtResource( 2 )]
+position = Vector2( 463.788, 480.146 )
+
+[node name="Stone88" parent="." instance=ExtResource( 2 )]
+position = Vector2( 463.788, 528.896 )
+
+[node name="Stone58" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1920.75, 874.056 )
+
+[node name="Stone59" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1970.31, 874.056 )
+
+[node name="Stone60" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2016.08, 874.056 )
+
+[node name="Stone61" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2064.69, 874.056 )
+
+[node name="Stone62" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2110.47, 874.056 )
+
+[node name="Stone63" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2159.08, 874.056 )
+
+[node name="Stone64" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2204.86, 874.056 )
+
 [node name="StaticBody2D" parent="." instance=ExtResource( 4 )]
 position = Vector2( -875.23, -534.539 )
 
 [node name="StaticBody2D2" parent="." instance=ExtResource( 4 )]
 position = Vector2( -630.771, -66.1566 )
 scale = Vector2( 2, 2 )
+
+[node name="Area2D" parent="." instance=ExtResource( 5 )]
+position = Vector2( 265.327, 811.284 )

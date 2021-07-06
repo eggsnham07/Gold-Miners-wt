@@ -1,0 +1,190 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Blocks/Stone.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Worlds/Tutorial/Camera2D.gd" type="Script" id=3]
+[ext_resource path="res://Blocks/Bolders.tscn" type="PackedScene" id=4]
+
+[node name="Tutorial" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 25.7322, 801.409 )
+
+[node name="Stone" parent="." instance=ExtResource( 2 )]
+position = Vector2( 25.7322, 878.553 )
+
+[node name="Stone2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 75.7322, 878.553 )
+
+[node name="Stone3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 124.151, 878.553 )
+
+[node name="Stone4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 174.151, 878.553 )
+
+[node name="Stone5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 222.57, 878.553 )
+
+[node name="Stone6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 272.57, 878.553 )
+
+[node name="Stone7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320.989, 878.553 )
+
+[node name="Stone8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 370.989, 878.553 )
+
+[node name="Stone9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 420.201, 878.553 )
+
+[node name="Stone33" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320.989, 829.472 )
+
+[node name="Stone34" parent="." instance=ExtResource( 2 )]
+position = Vector2( 370.989, 829.472 )
+
+[node name="Stone35" parent="." instance=ExtResource( 2 )]
+position = Vector2( 420.201, 829.472 )
+
+[node name="Stone36" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320.989, 780.444 )
+
+[node name="Stone37" parent="." instance=ExtResource( 2 )]
+position = Vector2( 370.989, 780.444 )
+
+[node name="Stone38" parent="." instance=ExtResource( 2 )]
+position = Vector2( 420.201, 780.444 )
+
+[node name="Stone39" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320.989, 731.362 )
+
+[node name="Stone40" parent="." instance=ExtResource( 2 )]
+position = Vector2( 370.989, 731.362 )
+
+[node name="Stone41" parent="." instance=ExtResource( 2 )]
+position = Vector2( 420.201, 731.362 )
+
+[node name="Stone42" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320.989, 682.929 )
+
+[node name="Stone43" parent="." instance=ExtResource( 2 )]
+position = Vector2( 370.989, 682.929 )
+
+[node name="Stone44" parent="." instance=ExtResource( 2 )]
+position = Vector2( 420.201, 682.929 )
+
+[node name="Stone45" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320.989, 633.847 )
+
+[node name="Stone46" parent="." instance=ExtResource( 2 )]
+position = Vector2( 370.989, 633.847 )
+
+[node name="Stone47" parent="." instance=ExtResource( 2 )]
+position = Vector2( 420.201, 633.847 )
+
+[node name="Stone48" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320.989, 584.819 )
+
+[node name="Stone49" parent="." instance=ExtResource( 2 )]
+position = Vector2( 370.989, 584.819 )
+
+[node name="Stone50" parent="." instance=ExtResource( 2 )]
+position = Vector2( 420.201, 584.819 )
+
+[node name="Stone51" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320.989, 535.738 )
+
+[node name="Stone52" parent="." instance=ExtResource( 2 )]
+position = Vector2( 370.989, 535.738 )
+
+[node name="Stone53" parent="." instance=ExtResource( 2 )]
+position = Vector2( 420.201, 535.738 )
+
+[node name="Stone54" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320.989, 486.24 )
+
+[node name="Stone55" parent="." instance=ExtResource( 2 )]
+position = Vector2( 370.989, 486.24 )
+
+[node name="Stone56" parent="." instance=ExtResource( 2 )]
+position = Vector2( 420.201, 486.24 )
+
+[node name="Stone10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 470.201, 878.553 )
+
+[node name="Stone11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 518.62, 878.553 )
+
+[node name="Stone12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 568.62, 878.553 )
+
+[node name="Stone13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 617.039, 878.553 )
+
+[node name="Stone22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1061.65, 878.553 )
+
+[node name="Stone23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1110.07, 878.553 )
+
+[node name="Stone24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1160.07, 878.553 )
+
+[node name="Stone25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1209.28, 878.553 )
+
+[node name="Stone26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1259.28, 878.553 )
+
+[node name="Stone27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1307.7, 878.553 )
+
+[node name="Stone28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1357.7, 878.553 )
+
+[node name="Stone29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1406.12, 878.553 )
+
+[node name="Stone30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1456.12, 878.553 )
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( -304.7, 851.409 )
+rotation = -3.14159
+
+[node name="StaticBody2D2" parent="." instance=ExtResource( 4 )]
+position = Vector2( -305.299, 397.876 )
+
+[node name="Stone31" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1504.54, 878.553 )
+
+[node name="StaticBody2D3" parent="." instance=ExtResource( 4 )]
+position = Vector2( -577.991, -63.6023 )
+
+[node name="Stone32" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1554.54, 878.553 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 802.112, 447.467 )
+current = true
+script = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 76.0
+margin_top = 658.0
+margin_right = 253.0
+margin_bottom = 683.0
+text = "Press and hold Q to grapple"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 568.62
+margin_top = 682.929
+margin_right = 745.62
+margin_bottom = 707.929
+text = "Press and hold E to Dash"
+__meta__ = {
+"_edit_use_anchors_": false
+}
